@@ -31,13 +31,13 @@ public class Ant {
     private int alcoholLevel = 0;
 
     
-    //Estados de la hormiga
-    private static boolean sober; //SOBRIA
-    private static boolean drunk; //EBRIA
-    private static boolean dead; //MUERTA
-    private static boolean poisoned; //ENVENENADA
+    
+    private static boolean sober; 
+    private static boolean drunk; 
+    private static boolean dead;
+    private static boolean poisoned; 
    
-    //Para mover
+   
     private int speedX;
     private int speedY;
     

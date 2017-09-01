@@ -259,12 +259,12 @@ public class FrmGame extends javax.swing.JFrame {
                             life = life - 10;
                             psbHealthLevel.setValue(life);
 
-//                            sugar += 1;
-//                            lblSugar.setText("" + sugar);
-//                            drunk = drunk - 10;
-//                            psbAlcohol.setValue(drunk);
-//                            life = life + 10;
-//                            psbHealthLevel.setValue(life);
+                            sugar += 1;
+                            lblSugar.setText("" + sugar);
+                            drunk = drunk - 10;
+                            psbAlcohol.setValue(drunk);
+                            life = life + 10;
+                            psbHealthLevel.setValue(life);
 
                             if (drunk > 0) {
                                 String steps = hip(Integer.valueOf(txtSteps.getText().toString()), speedX, speedY, drunk);
@@ -327,12 +327,12 @@ public class FrmGame extends javax.swing.JFrame {
                             life = life - 10;
                             psbHealthLevel.setValue(life);
 
-//                            sugar += 1;
-//                            lblSugar.setText("" + sugar);
-//                            drunk = drunk - 10;
-//                            psbAlcohol.setValue(drunk);
-//                            life = life + 10;
-//                            psbHealthLevel.setValue(life);
+                            sugar += 1;
+                            lblSugar.setText("" + sugar);
+                            drunk = drunk - 10;
+                            psbAlcohol.setValue(drunk);
+                            life = life + 10;
+                            psbHealthLevel.setValue(life);
                             if (drunk > 0) {
                                 String steps = hip(Integer.valueOf(txtSteps.getText().toString()), speedX, speedY, drunk);
                                 txtSteps.setText(String.valueOf(steps));
@@ -395,12 +395,12 @@ public class FrmGame extends javax.swing.JFrame {
                             life = life - 10;
                             psbHealthLevel.setValue(life);
 
-//                            sugar += 1;
-//                            lblSugar.setText("" + sugar);
-//                            drunk = drunk - 10;
-//                            psbAlcohol.setValue(drunk);
-//                            life = life + 10;
-//                            psbHealthLevel.setValue(life);
+                            sugar += 1;
+                            lblSugar.setText("" + sugar);
+                            drunk = drunk - 10;
+                            psbAlcohol.setValue(drunk);
+                            life = life + 10;
+                            psbHealthLevel.setValue(life);
                             if (drunk > 0) {
                                 String steps = hip(Integer.valueOf(txtSteps.getText().toString()), speedX, speedY, drunk);
                                 txtSteps.setText(String.valueOf(steps));
@@ -462,12 +462,12 @@ public class FrmGame extends javax.swing.JFrame {
                             life = life - 10;
                             psbHealthLevel.setValue(life);
 
-//                            sugar += 1;
-//                            lblSugar.setText("" + sugar);
-//                            drunk = drunk - 10;
-//                            psbAlcohol.setValue(drunk);
-//                            life = life + 10;
-//                            psbHealthLevel.setValue(life);
+                            sugar += 1;
+                            lblSugar.setText("" + sugar);
+                            drunk = drunk - 10;
+                            psbAlcohol.setValue(drunk);
+                            life = life + 10;
+                            psbHealthLevel.setValue(life);
                             if (drunk > 0) {
                                 String steps = hip(Integer.valueOf(txtSteps.getText().toString()), speedX, speedY, drunk);
                                 txtSteps.setText(String.valueOf(steps));
@@ -835,21 +835,20 @@ public class FrmGame extends javax.swing.JFrame {
                             psbAlcohol.setValue(drunk);
                             life = life - 10;
                             psbHealthLevel.setValue(life);
-//
-//                            sugar += 1;
-//                            lblSugar.setText("" + sugar);
-//                            drunk = drunk - 10;
-//                            psbAlcohol.setValue(drunk);
-//                            life = life + 10;
-//                            psbHealthLevel.setValue(life);
+
+                            sugar += 1;
+                            lblSugar.setText("" + sugar);
+                            drunk = drunk - 10;
+                            psbAlcohol.setValue(drunk);
+                            life = life + 10;
+                            psbHealthLevel.setValue(life);
 
                             if (drunk > 0) {
                                 int rd = 1 + (int) (Math.random() * 4);
                                 proof(rd);
-                                //String steps = hip(Integer.valueOf(txtSteps.getText().toString()), speedX, speedY, drunk);
-                                //txtSteps.setText(String.valueOf(steps));
+                                String steps = hip(Integer.valueOf(txtSteps.getText().toString()), speedX, speedY, drunk);
+                                txtSteps.setText(String.valueOf(steps));
                                 if (drunk >= 50) {
-                                    int mc = JOptionPane.QUESTION_MESSAGE;
                                     JOptionPane.showMessageDialog(this, "Game Over, drunk ");
                                     oAnt.setDead(true);
                                 }
@@ -907,17 +906,17 @@ public class FrmGame extends javax.swing.JFrame {
                             life = life - 10;
                             psbHealthLevel.setValue(life);
 
-//                            sugar += 1;
-//                            lblSugar.setText("" + sugar);
-//                            drunk = drunk - 10;
-//                            psbAlcohol.setValue(drunk);
-//                            life = life + 10;
-//                            psbHealthLevel.setValue(life);
+                            sugar += 1;
+                            lblSugar.setText("" + sugar);
+                            drunk = drunk - 10;
+                            psbAlcohol.setValue(drunk);
+                            life = life + 10;
+                            psbHealthLevel.setValue(life);
                             if (drunk > 0) {
                                 int rd = 1 + (int) (Math.random() * 4);
                                 proof(rd);
-                                //String steps = hip(Integer.valueOf(txtSteps.getText().toString()), speedX, speedY, drunk);
-                                //txtSteps.setText(String.valueOf(steps));
+                                String steps = hip(Integer.valueOf(txtSteps.getText().toString()), speedX, speedY, drunk);
+                                txtSteps.setText(String.valueOf(steps));
                                 if (drunk >= 50) {
                                     JOptionPane.showMessageDialog(this, "Game Over, drunk");
                                     oAnt.setDead(true);
@@ -976,17 +975,17 @@ public class FrmGame extends javax.swing.JFrame {
                             life = life - 10;
                             psbHealthLevel.setValue(life);
 
-//                            sugar += 1;
-//                            lblSugar.setText("" + sugar);
-//                            drunk = drunk - 10;
-//                            psbAlcohol.setValue(drunk);
-//                            life = life + 10;
-//                            psbHealthLevel.setValue(life);
+                            sugar += 1;
+                            lblSugar.setText("" + sugar);
+                            drunk = drunk - 10;
+                            psbAlcohol.setValue(drunk);
+                            life = life + 10;
+                            psbHealthLevel.setValue(life);
                             if (drunk > 0) {
                                 int rd = 1 + (int) (Math.random() * 4);
                                 proof(rd);
-                                //String steps = hip(Integer.valueOf(txtSteps.getText().toString()), speedX, speedY, drunk);
-                                //txtSteps.setText(String.valueOf(steps));
+                                String steps = hip(Integer.valueOf(txtSteps.getText().toString()), speedX, speedY, drunk);
+                                txtSteps.setText(String.valueOf(steps));
                                 if (drunk >= 50) {
                                     JOptionPane.showMessageDialog(this, "Game Over, drunk");
                                     oAnt.setDead(true);
@@ -1045,17 +1044,17 @@ public class FrmGame extends javax.swing.JFrame {
                             life = life - 10;
                             psbHealthLevel.setValue(life);
 
-//                            sugar += 1;
-//                            lblSugar.setText("" + sugar);
-//                            drunk = drunk - 10;
-//                            psbAlcohol.setValue(drunk);
-//                            life = life + 10;
-//                            psbHealthLevel.setValue(life);
+                            sugar += 1;
+                            lblSugar.setText("" + sugar);
+                            drunk = drunk - 10;
+                            psbAlcohol.setValue(drunk);
+                            life = life + 10;
+                            psbHealthLevel.setValue(life);
                             if (drunk > 0) {
                                 int rd = 1 + (int) (Math.random() * 4);
                                 proof(rd);
-                                //String steps = hip(Integer.valueOf(txtSteps.getText().toString()), speedX, speedY, drunk);
-                                //txtSteps.setText(String.valueOf(steps));
+                                String steps = hip(Integer.valueOf(txtSteps.getText().toString()), speedX, speedY, drunk);
+                                txtSteps.setText(String.valueOf(steps));
                                 if (drunk >= 50) {
                                     JOptionPane.showMessageDialog(this, "Game Over, drunk");
                                     oAnt.setDead(true);
